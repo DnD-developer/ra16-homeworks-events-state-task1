@@ -1,0 +1,27 @@
+.toolbar {
+	display: flex;
+	align-items: center;
+}
+
+.toolbar__item {
+	margin-left: 10px;
+
+	padding-left: 5px;
+	padding-right: 5px;
+
+	line-height: 20px;
+
+	border: 1px solid #000000;
+
+	list-style-type: none;
+
+	cursor: pointer;
+}
+
+.toolbar__item.select {
+	background: grey;
+}
+
+.toolbar__item:first-child {
+	margin-left: 0px;
+}

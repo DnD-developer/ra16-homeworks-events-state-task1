@@ -1,0 +1,8 @@
+.project-list {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.project-list__item {
+	list-style-type: none;
+}
